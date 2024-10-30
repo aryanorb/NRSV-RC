@@ -37,7 +37,12 @@ class SEANet(nn.Module):
                                  stride = 1,
                                  bias = True, 
                                  activation = None, causality = causal, pre_activation=False)
-                                
+        
+        # self.encoder = nn.ModuleList([
+        #                             EncBlock(min_dim, min_dim*2, 2, causal),
+        #                             EncBlock(min_dim*2, min_dim*4, 2, causal),
+        #                             EncBlock(min_dim*4, min_dim*8, 8,  causal),
+        #                             EncBlock(min_dim*8, min_dim*16, 8, causal)])                                        
         
         self.encoder = nn.ModuleList([
                                     EncBlock(min_dim*(2**i), min_dim*(2**(i+1)), stride, causal)

@@ -191,7 +191,7 @@ class GLIEBlock(nn.Module):
             nn.Conv1d(inter_channel, channels , kernel_size = 1, dilation = 1,  padding = 0, bias=False),
             nn.BatchNorm1d(channels),
         )
-
+        
         self.conv1x1 = nn.Conv1d(in_channels=3*channels, out_channels=channels, kernel_size=1, stride=1)
         
         
@@ -201,8 +201,7 @@ class GLIEBlock(nn.Module):
         self.prelu  = nn.PReLU()
         
         self.pwconv = nn.Conv1d(in_channels = 256, out_channels = channels, kernel_size = 1, stride=1)
-        
-        #self.se     = SEModule(channels, channels//self.ratio)
+    
         
         self.se     = SELayer(channels, reduction=8)
         
@@ -301,9 +300,9 @@ class SpeechRestorationModule(nn.Module):
         
         return estimated_R 
 
-class NRSVRC(nn.Module):
+class NoiseRobustSV(nn.Module):
     def __init__(self, **kwargs):
-        super(NRSVRC, self).__init__()
+        super(NoiseRobustSV, self).__init__()
         
         # SV configuration
         self.C                  = kwargs['C']
@@ -365,8 +364,9 @@ class NRSVRC(nn.Module):
             noisy_feature       = noisy_feature - torch.mean(noisy_feature, dim=-1, keepdim=True)
 
         estimated_R     = self.srm(enhanced_feature, noisy_feature)
+        
+        #input_features  = enhanced_feature + estimated_R 
         input_features  = enhanced_feature + estimated_R + noisy_feature
-        #input_features  = enhanced_feature + estimated_R
         spk_embedding   = self.sv(input_features, aug)
         
         return spk_embedding, enhanced_signal, estimated_R, enhanced_feature
