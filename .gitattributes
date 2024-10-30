@@ -1,0 +1,2 @@
+src/trained/nrsv_rc.pth filter=lfs diff=lfs merge=lfs -text
+src/checkpoint/nrsv_rc.pth filter=lfs diff=lfs merge=lfs -text
