@@ -8,4 +8,4 @@ We provide our implementation as open source in this repository.
 Please refer [requirements.txt](https://github.com/aryanorb/NRSV-RC/blob/main/requirements.txt).
 
 ## Data Preparation
-For dataloader and MUSAN noise split, we referred to the implementation from (https://github.com/wngh1187/ExU-Net).
+For dataloader and MUSAN noise split, we referred to the implementation from [ExU-Net](https://github.com/wngh1187/ExU-Net).
