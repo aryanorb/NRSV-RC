@@ -364,8 +364,8 @@ class NRSVRC(nn.Module):
             noisy_feature       = noisy_feature - torch.mean(noisy_feature, dim=-1, keepdim=True)
 
         estimated_R     = self.srm(enhanced_feature, noisy_feature)
-        #input_features  = enhanced_feature + estimated_R + noisy_feature
-        input_features  = enhanced_feature + noisy_feature
+        input_features  = enhanced_feature + estimated_R + noisy_feature
+
         spk_embedding   = self.sv(input_features, aug)
         
         return spk_embedding, enhanced_signal, estimated_R, enhanced_feature
@@ -383,7 +383,7 @@ if __name__ == '__main__':
     clean = torch.randn([2,1,16000])
     noisy = torch.randn([2,1,16000])
     
-    model = NoiseRobustSV(**config)
+    model = NRSVRC(**config)
     
     se_param = sum(p.numel() for p in model.se.parameters() if p.requires_grad)
     print('SE:', se_param)
