@@ -9,8 +9,10 @@ import torchaudio
 import torch.nn as nn
 import torch.nn.functional as F
 
-from .sv_network        import ECAPA_TDNN, SEModule
-from .se_network        import SEANet
+from sv_network        import ECAPA_TDNN, SEModule
+from se_network        import SEANet
+
+from ptflops import get_model_complexity_info
 
 def initialize_weights(m):
   if isinstance(m, nn.Conv1d):
@@ -53,9 +55,7 @@ class PreEmphasis(torch.nn.Module):
         )
         
     def forward(self, input: torch.tensor):
-
         input = F.pad(input, (1, 0), 'reflect')
-        
         return F.conv1d(input, self.flipped_filter)
 
 
@@ -63,8 +63,6 @@ class LISBlock(nn.Module):
     def __init__(self, channels):
         super(LISBlock,self).__init__()
         
-        # # Lost Information Supplement Block
-
         self.eps = 1e-6
     
         self.layer =  nn.Sequential(
@@ -241,8 +239,6 @@ class GLIEBlock(nn.Module):
 
         return output
     
-
-# 
 class SpeechRestorationModule(nn.Module):
     def __init__(self, n_blocks, channels):
         super(SpeechRestorationModule, self).__init__()
@@ -268,12 +264,10 @@ class SpeechRestorationModule(nn.Module):
         self.GLIE_block_n = nn.ModuleList([GLIEBlock(self.channels, 2**i) for i in range(n_blocks)])
         
         self.LIS = nn.ModuleList([LISBlock(self.channels) for i in range(n_blocks)])
-        
         self.LIA   = LIABlock(self.channels)
         
         
     def forward(self, enhanced, noisy):
-        
         
         enhanced = self.encoder_e(enhanced) # [batch, 128, n_frames]
         noisy    = self.encoder_n(noisy) # [batch, 128, n_frames]
@@ -284,8 +278,6 @@ class SpeechRestorationModule(nn.Module):
             
             enhanced        = self.GLIE_block_e[i](enhanced)
             noisy           = self.GLIE_block_n[i](noisy)
-            
-            # residual is lost information
             
             if i == 0:
                 enhanced, residual        = self.LIS[i](enhanced, noisy, None)
@@ -372,6 +364,11 @@ class NRSVRC(nn.Module):
     
 if __name__ == '__main__':
     
+    if torch.cuda.is_available():
+        device = torch.device("cuda");print(device)
+    else:
+        raise RuntimeError('CUDA device is unavailable ... please check the CUDA')
+    
     config = {
         'channles'   : 128,
         'n_blocks': 4,
@@ -380,24 +377,20 @@ if __name__ == '__main__':
         'n_mels': 80,
     }
     
-    clean = torch.randn([2,1,16000])
-    noisy = torch.randn([2,1,16000])
+    model = NRSVRC(**config).to(device)
     
-    model = NRSVRC(**config)
+    def prepare_input(input_shape):
     
-    se_param = sum(p.numel() for p in model.se.parameters() if p.requires_grad)
-    print('SE:', se_param)
-    
-    lia_param = sum(p.numel() for p in model.lia.parameters() if p.requires_grad)
-    print('lia:', lia_param)
-    
+        inputs = {
+            'noisy': torch.ones((1, *input_shape)).to(device),
+            'aug': True
+        }
         
-    sv_param = sum(p.numel() for p in model.sv.parameters() if p.requires_grad)
-    print('SV:', sv_param)
-    
-    
-    param = sum(p.numel() for p in model.parameters() if p.requires_grad)
-    print('total_param', param)
-    
-    embedidng, enhanced_signal, _ , _   = model(noisy, True)
-    print(enhanced_signal.shape)
+        return inputs
+
+    # 2-seconds
+    macs, params = get_model_complexity_info(model, (1, 32000), as_strings=True, backend='pytorch',
+                                     print_per_layer_stat=True, verbose=True, input_constructor = prepare_input)
+    print('{:<30}  {:<8}'.format('Computational complexity: ', macs))
+    print('{:<30}  {:<8}'.format('Number of parameters: ', params))
+        

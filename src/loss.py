@@ -97,7 +97,6 @@ class MultiMelSpectrogramLoss(nn.Module):
         
         return loss
 
-    
 class ConsistencyLoss(nn.Module):
     def __init__(self, type):
         
@@ -109,35 +108,20 @@ class ConsistencyLoss(nn.Module):
         
     def forward(self, predicted, true):
         
+        # KL (q||p)
+        predicted_d     = nn.functional.softmax(predicted, dim=1) 
+        true_log_d      = nn.functional.log_softmax(true, dim=1) 
+        loss1           = self.KL_loss(true_log_d, predicted_d)
         
-        if self.type == 'L2':
-            
-            x = F.normalize(predicted, dim=1)
-            y = F.normalize(true, dim=1)
-            
-            loss = 2 - 2 * (predicted * true).sum(dim=-1)
+        # KL (p||q)
+        predicted_log_d = nn.functional.log_softmax(predicted, dim=1)
+        true_d          = nn.functional.softmax(true, dim=1) # prediction
+        loss2           = self.KL_loss(predicted_log_d, true_d)
+    
+        loss            = loss1 + loss2
         
-            return loss.mean()
-        
-        elif self.type == 'symKL':
-            # KL (q||p)
-            predicted_d     = nn.functional.softmax(predicted, dim=1) 
-            true_log_d      = nn.functional.log_softmax(true, dim=1) 
-            loss1           = self.KL_loss(true_log_d, predicted_d)
-            
-            # KL (p||q)
-            predicted_log_d = nn.functional.log_softmax(predicted, dim=1)
-            true_d          = nn.functional.softmax(true, dim=1) # prediction
-            loss2           = self.KL_loss(predicted_log_d, true_d)
-        
-            loss            = loss1 + loss2
-            
-            return loss
-        else:
-            raise RuntimeError('check your consistency type: {}'.format(self.type))
+        return loss
 
-
-# Exaggerated target speech resotration loss
 class ETSRLoss(nn.Module):
     def __init__(self, device, reduction = True, eps = 1e-6):
         super(ETSRLoss,self).__init__()
