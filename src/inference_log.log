@@ -1,0 +1,396 @@
+[25-04-15 20:34:52] Random Seed Number: 6311
+[25-04-15 20:39:35] Trials: [1/20] | Time: 0:04:43 | Noise type: speech | SNR: 0 dB | EER: 6.850 %
+[25-04-15 20:44:07] Trials: [1/20] | Time: 0:04:31 | Noise type: speech | SNR: 5 dB | EER: 4.003 %
+[25-04-15 20:48:39] Trials: [1/20] | Time: 0:04:31 | Noise type: speech | SNR: 10 dB | EER: 3.118 %
+[25-04-15 20:53:11] Trials: [1/20] | Time: 0:04:31 | Noise type: speech | SNR: 15 dB | EER: 2.566 %
+[25-04-15 20:57:43] Trials: [1/20] | Time: 0:04:32 | Noise type: speech | SNR: 20 dB | EER: 2.248 %
+[25-04-15 21:01:58] Trials: [1/20] | Time: 0:04:15 | Noise type: music | SNR: 0 dB | EER: 5.626 %
+[25-04-15 21:06:13] Trials: [1/20] | Time: 0:04:14 | Noise type: music | SNR: 5 dB | EER: 3.674 %
+[25-04-15 21:10:28] Trials: [1/20] | Time: 0:04:15 | Noise type: music | SNR: 10 dB | EER: 2.879 %
+[25-04-15 21:14:43] Trials: [1/20] | Time: 0:04:15 | Noise type: music | SNR: 15 dB | EER: 2.519 %
+[25-04-15 21:18:58] Trials: [1/20] | Time: 0:04:14 | Noise type: music | SNR: 20 dB | EER: 2.391 %
+[25-04-15 21:23:13] Trials: [1/20] | Time: 0:04:15 | Noise type: noise | SNR: 0 dB | EER: 5.573 %
+[25-04-15 21:27:29] Trials: [1/20] | Time: 0:04:15 | Noise type: noise | SNR: 5 dB | EER: 4.062 %
+[25-04-15 21:31:44] Trials: [1/20] | Time: 0:04:15 | Noise type: noise | SNR: 10 dB | EER: 3.298 %
+[25-04-15 21:35:59] Trials: [1/20] | Time: 0:04:15 | Noise type: noise | SNR: 15 dB | EER: 2.736 %
+[25-04-15 21:40:15] Trials: [1/20] | Time: 0:04:15 | Noise type: noise | SNR: 20 dB | EER: 2.492 %
+[25-04-15 21:40:15] Seed: 6311 | Average EER: 3.515 % 
+[25-04-15 21:40:15] 
+
+[25-04-15 21:40:15] Random Seed Number: 1950
+[25-04-15 21:44:47] Trials: [2/20] | Time: 0:04:31 | Noise type: speech | SNR: 0 dB | EER: 7.121 %
+[25-04-15 21:49:05] Trials: [2/20] | Time: 0:04:18 | Noise type: speech | SNR: 5 dB | EER: 3.897 %
+[25-04-15 21:52:57] Trials: [2/20] | Time: 0:03:51 | Noise type: speech | SNR: 10 dB | EER: 3.123 %
+[25-04-15 21:56:49] Trials: [2/20] | Time: 0:03:52 | Noise type: speech | SNR: 15 dB | EER: 2.625 %
+[25-04-15 22:00:41] Trials: [2/20] | Time: 0:03:52 | Noise type: speech | SNR: 20 dB | EER: 2.359 %
+[25-04-15 22:04:18] Trials: [2/20] | Time: 0:03:36 | Noise type: music | SNR: 0 dB | EER: 5.567 %
+[25-04-15 22:07:54] Trials: [2/20] | Time: 0:03:36 | Noise type: music | SNR: 5 dB | EER: 3.727 %
+[25-04-15 22:11:30] Trials: [2/20] | Time: 0:03:36 | Noise type: music | SNR: 10 dB | EER: 2.906 %
+[25-04-15 22:15:06] Trials: [2/20] | Time: 0:03:36 | Noise type: music | SNR: 15 dB | EER: 2.577 %
+[25-04-15 22:18:42] Trials: [2/20] | Time: 0:03:35 | Noise type: music | SNR: 20 dB | EER: 2.365 %
+[25-04-15 22:22:18] Trials: [2/20] | Time: 0:03:35 | Noise type: noise | SNR: 0 dB | EER: 5.854 %
+[25-04-15 22:25:54] Trials: [2/20] | Time: 0:03:36 | Noise type: noise | SNR: 5 dB | EER: 4.072 %
+[25-04-15 22:29:31] Trials: [2/20] | Time: 0:03:36 | Noise type: noise | SNR: 10 dB | EER: 3.245 %
+[25-04-15 22:33:07] Trials: [2/20] | Time: 0:03:36 | Noise type: noise | SNR: 15 dB | EER: 2.720 %
+[25-04-15 22:36:44] Trials: [2/20] | Time: 0:03:36 | Noise type: noise | SNR: 20 dB | EER: 2.370 %
+[25-04-15 22:36:44] Seed: 1950 | Average EER: 3.546 %
+[25-04-15 22:36:44] 
+
+[25-04-15 22:36:44] Random Seed Number: 7074
+[25-04-15 22:40:36] Trials: [3/20] | Time: 0:03:52 | Noise type: speech | SNR: 0 dB | EER: 6.999 %
+[25-04-15 22:44:29] Trials: [3/20] | Time: 0:03:52 | Noise type: speech | SNR: 5 dB | EER: 3.908 %
+[25-04-15 22:48:21] Trials: [3/20] | Time: 0:03:52 | Noise type: speech | SNR: 10 dB | EER: 2.975 %
+[25-04-15 22:52:13] Trials: [3/20] | Time: 0:03:51 | Noise type: speech | SNR: 15 dB | EER: 2.587 %
+[25-04-15 22:56:04] Trials: [3/20] | Time: 0:03:51 | Noise type: speech | SNR: 20 dB | EER: 2.322 %
+[25-04-15 22:59:40] Trials: [3/20] | Time: 0:03:36 | Noise type: music | SNR: 0 dB | EER: 5.583 %
+[25-04-15 23:03:17] Trials: [3/20] | Time: 0:03:36 | Noise type: music | SNR: 5 dB | EER: 3.743 %
+[25-04-15 23:06:53] Trials: [3/20] | Time: 0:03:36 | Noise type: music | SNR: 10 dB | EER: 2.858 %
+[25-04-15 23:10:29] Trials: [3/20] | Time: 0:03:36 | Noise type: music | SNR: 15 dB | EER: 2.540 %
+[25-04-15 23:14:06] Trials: [3/20] | Time: 0:03:36 | Noise type: music | SNR: 20 dB | EER: 2.444 %
+[25-04-15 23:17:42] Trials: [3/20] | Time: 0:03:36 | Noise type: noise | SNR: 0 dB | EER: 5.647 %
+[25-04-15 23:21:18] Trials: [3/20] | Time: 0:03:36 | Noise type: noise | SNR: 5 dB | EER: 3.977 %
+[25-04-15 23:24:54] Trials: [3/20] | Time: 0:03:36 | Noise type: noise | SNR: 10 dB | EER: 3.118 %
+[25-04-15 23:28:30] Trials: [3/20] | Time: 0:03:35 | Noise type: noise | SNR: 15 dB | EER: 2.725 %
+[25-04-15 23:32:06] Trials: [3/20] | Time: 0:03:35 | Noise type: noise | SNR: 20 dB | EER: 2.476 %
+[25-04-15 23:32:06] Seed: 7074 | Average EER: 3.507 % 
+[25-04-15 23:32:06] 
+
+[25-04-15 23:32:06] Random Seed Number: 4130
+[25-04-15 23:35:58] Trials: [4/20] | Time: 0:03:52 | Noise type: speech | SNR: 0 dB | EER: 6.930 %
+[25-04-15 23:39:50] Trials: [4/20] | Time: 0:03:52 | Noise type: speech | SNR: 5 dB | EER: 4.141 %
+[25-04-15 23:43:42] Trials: [4/20] | Time: 0:03:52 | Noise type: speech | SNR: 10 dB | EER: 3.033 %
+[25-04-15 23:47:35] Trials: [4/20] | Time: 0:03:52 | Noise type: speech | SNR: 15 dB | EER: 2.577 %
+[25-04-15 23:51:27] Trials: [4/20] | Time: 0:03:51 | Noise type: speech | SNR: 20 dB | EER: 2.317 %
+[25-04-15 23:55:02] Trials: [4/20] | Time: 0:03:35 | Noise type: music | SNR: 0 dB | EER: 5.668 %
+[25-04-15 23:58:39] Trials: [4/20] | Time: 0:03:36 | Noise type: music | SNR: 5 dB | EER: 3.918 %
+[25-04-16 00:02:14] Trials: [4/20] | Time: 0:03:35 | Noise type: music | SNR: 10 dB | EER: 2.969 %
+[25-04-16 00:05:50] Trials: [4/20] | Time: 0:03:36 | Noise type: music | SNR: 15 dB | EER: 2.524 %
+[25-04-16 00:09:27] Trials: [4/20] | Time: 0:03:36 | Noise type: music | SNR: 20 dB | EER: 2.359 %
+[25-04-16 00:13:03] Trials: [4/20] | Time: 0:03:36 | Noise type: noise | SNR: 0 dB | EER: 5.689 %
+[25-04-16 00:16:39] Trials: [4/20] | Time: 0:03:36 | Noise type: noise | SNR: 5 dB | EER: 3.823 %
+[25-04-16 00:20:15] Trials: [4/20] | Time: 0:03:36 | Noise type: noise | SNR: 10 dB | EER: 3.123 %
+[25-04-16 00:23:51] Trials: [4/20] | Time: 0:03:35 | Noise type: noise | SNR: 15 dB | EER: 2.747 %
+[25-04-16 00:27:27] Trials: [4/20] | Time: 0:03:35 | Noise type: noise | SNR: 20 dB | EER: 2.545 %
+[25-04-16 00:27:27] Seed: 4130 | Average EER: 3.536 %
+[25-04-16 00:27:27] 
+
+[25-04-16 00:27:27] Random Seed Number: 2487
+[25-04-16 00:31:19] Trials: [5/20] | Time: 0:03:52 | Noise type: speech | SNR: 0 dB | EER: 6.686 %
+[25-04-16 00:35:11] Trials: [5/20] | Time: 0:03:52 | Noise type: speech | SNR: 5 dB | EER: 4.104 %
+[25-04-16 00:39:03] Trials: [5/20] | Time: 0:03:52 | Noise type: speech | SNR: 10 dB | EER: 3.118 %
+[25-04-16 00:42:55] Trials: [5/20] | Time: 0:03:51 | Noise type: speech | SNR: 15 dB | EER: 2.524 %
+[25-04-16 00:46:47] Trials: [5/20] | Time: 0:03:51 | Noise type: speech | SNR: 20 dB | EER: 2.322 %
+[25-04-16 00:50:23] Trials: [5/20] | Time: 0:03:36 | Noise type: music | SNR: 0 dB | EER: 5.806 %
+[25-04-16 00:53:58] Trials: [5/20] | Time: 0:03:35 | Noise type: music | SNR: 5 dB | EER: 3.743 %
+[25-04-16 00:57:34] Trials: [5/20] | Time: 0:03:36 | Noise type: music | SNR: 10 dB | EER: 3.006 %
+[25-04-16 01:01:11] Trials: [5/20] | Time: 0:03:36 | Noise type: music | SNR: 15 dB | EER: 2.572 %
+[25-04-16 01:04:47] Trials: [5/20] | Time: 0:03:36 | Noise type: music | SNR: 20 dB | EER: 2.349 %
+[25-04-16 01:08:23] Trials: [5/20] | Time: 0:03:36 | Noise type: noise | SNR: 0 dB | EER: 5.779 %
+[25-04-16 01:11:59] Trials: [5/20] | Time: 0:03:36 | Noise type: noise | SNR: 5 dB | EER: 4.003 %
+[25-04-16 01:15:35] Trials: [5/20] | Time: 0:03:35 | Noise type: noise | SNR: 10 dB | EER: 3.139 %
+[25-04-16 01:19:11] Trials: [5/20] | Time: 0:03:36 | Noise type: noise | SNR: 15 dB | EER: 2.731 %
+[25-04-16 01:22:47] Trials: [5/20] | Time: 0:03:35 | Noise type: noise | SNR: 20 dB | EER: 2.497 %
+[25-04-16 01:22:47] Seed: 2487 | Average EER: 3.537 %
+[25-04-16 01:22:47] 
+
+[25-04-16 01:22:47] Random Seed Number: 7577
+[25-04-16 01:26:39] Trials: [6/20] | Time: 0:03:51 | Noise type: speech | SNR: 0 dB | EER: 6.819 %
+[25-04-16 01:30:30] Trials: [6/20] | Time: 0:03:51 | Noise type: speech | SNR: 5 dB | EER: 4.008 %
+[25-04-16 01:34:22] Trials: [6/20] | Time: 0:03:51 | Noise type: speech | SNR: 10 dB | EER: 2.990 %
+[25-04-16 01:38:13] Trials: [6/20] | Time: 0:03:51 | Noise type: speech | SNR: 15 dB | EER: 2.603 %
+[25-04-16 01:42:04] Trials: [6/20] | Time: 0:03:51 | Noise type: speech | SNR: 20 dB | EER: 2.333 %
+[25-04-16 01:45:41] Trials: [6/20] | Time: 0:03:36 | Noise type: music | SNR: 0 dB | EER: 5.689 %
+[25-04-16 01:49:18] Trials: [6/20] | Time: 0:03:36 | Noise type: music | SNR: 5 dB | EER: 3.701 %
+[25-04-16 01:52:55] Trials: [6/20] | Time: 0:03:36 | Noise type: music | SNR: 10 dB | EER: 2.927 %
+[25-04-16 01:56:32] Trials: [6/20] | Time: 0:03:37 | Noise type: music | SNR: 15 dB | EER: 2.582 %
+[25-04-16 02:00:08] Trials: [6/20] | Time: 0:03:35 | Noise type: music | SNR: 20 dB | EER: 2.370 %
+[25-04-16 02:03:44] Trials: [6/20] | Time: 0:03:36 | Noise type: noise | SNR: 0 dB | EER: 5.875 %
+[25-04-16 02:07:21] Trials: [6/20] | Time: 0:03:37 | Noise type: noise | SNR: 5 dB | EER: 4.088 %
+[25-04-16 02:10:59] Trials: [6/20] | Time: 0:03:37 | Noise type: noise | SNR: 10 dB | EER: 3.218 %
+[25-04-16 02:14:36] Trials: [6/20] | Time: 0:03:37 | Noise type: noise | SNR: 15 dB | EER: 2.672 %
+[25-04-16 02:18:13] Trials: [6/20] | Time: 0:03:36 | Noise type: noise | SNR: 20 dB | EER: 2.481 %
+[25-04-16 02:18:13] Seed: 7577 | Average EER: 3.535 %
+[25-04-16 02:18:13] 
+
+[25-04-16 02:18:13] Random Seed Number: 6938
+[25-04-16 02:22:05] Trials: [7/20] | Time: 0:03:52 | Noise type: speech | SNR: 0 dB | EER: 6.835 %
+[25-04-16 02:25:56] Trials: [7/20] | Time: 0:03:51 | Noise type: speech | SNR: 5 dB | EER: 4.014 %
+[25-04-16 02:29:48] Trials: [7/20] | Time: 0:03:51 | Noise type: speech | SNR: 10 dB | EER: 3.070 %
+[25-04-16 02:33:39] Trials: [7/20] | Time: 0:03:51 | Noise type: speech | SNR: 15 dB | EER: 2.513 %
+[25-04-16 02:37:29] Trials: [7/20] | Time: 0:03:49 | Noise type: speech | SNR: 20 dB | EER: 2.365 %
+[25-04-16 02:41:04] Trials: [7/20] | Time: 0:03:35 | Noise type: music | SNR: 0 dB | EER: 5.647 %
+[25-04-16 02:44:39] Trials: [7/20] | Time: 0:03:34 | Noise type: music | SNR: 5 dB | EER: 3.807 %
+[25-04-16 02:48:16] Trials: [7/20] | Time: 0:03:36 | Noise type: music | SNR: 10 dB | EER: 2.969 %
+[25-04-16 02:51:54] Trials: [7/20] | Time: 0:03:38 | Noise type: music | SNR: 15 dB | EER: 2.519 %
+[25-04-16 02:55:58] Trials: [7/20] | Time: 0:04:04 | Noise type: music | SNR: 20 dB | EER: 2.349 %
+[25-04-16 02:59:48] Trials: [7/20] | Time: 0:03:50 | Noise type: noise | SNR: 0 dB | EER: 5.976 %
+[25-04-16 03:03:24] Trials: [7/20] | Time: 0:03:35 | Noise type: noise | SNR: 5 dB | EER: 3.934 %
+[25-04-16 03:07:03] Trials: [7/20] | Time: 0:03:38 | Noise type: noise | SNR: 10 dB | EER: 3.028 %
+[25-04-16 03:10:40] Trials: [7/20] | Time: 0:03:37 | Noise type: noise | SNR: 15 dB | EER: 2.704 %
+[25-04-16 03:14:17] Trials: [7/20] | Time: 0:03:37 | Noise type: noise | SNR: 20 dB | EER: 2.481 %
+[25-04-16 03:14:17] Seed: 6938 | Average EER: 3.526 %
+[25-04-16 03:14:17] 
+
+[25-04-16 03:14:17] Random Seed Number: 7216
+[25-04-16 03:18:11] Trials: [8/20] | Time: 0:03:53 | Noise type: speech | SNR: 0 dB | EER: 6.930 %
+[25-04-16 03:22:04] Trials: [8/20] | Time: 0:03:53 | Noise type: speech | SNR: 5 dB | EER: 4.120 %
+[25-04-16 03:25:58] Trials: [8/20] | Time: 0:03:53 | Noise type: speech | SNR: 10 dB | EER: 3.081 %
+[25-04-16 03:29:50] Trials: [8/20] | Time: 0:03:51 | Noise type: speech | SNR: 15 dB | EER: 2.577 %
+[25-04-16 03:34:17] Trials: [8/20] | Time: 0:04:27 | Noise type: speech | SNR: 20 dB | EER: 2.322 %
+[25-04-16 03:38:27] Trials: [8/20] | Time: 0:04:10 | Noise type: music | SNR: 0 dB | EER: 5.546 %
+[25-04-16 03:42:04] Trials: [8/20] | Time: 0:03:36 | Noise type: music | SNR: 5 dB | EER: 3.786 %
+[25-04-16 03:45:41] Trials: [8/20] | Time: 0:03:37 | Noise type: music | SNR: 10 dB | EER: 2.975 %
+[25-04-16 03:49:18] Trials: [8/20] | Time: 0:03:36 | Noise type: music | SNR: 15 dB | EER: 2.529 %
+[25-04-16 03:52:55] Trials: [8/20] | Time: 0:03:37 | Noise type: music | SNR: 20 dB | EER: 2.280 %
+[25-04-16 03:56:45] Trials: [8/20] | Time: 0:03:49 | Noise type: noise | SNR: 0 dB | EER: 6.060 %
+[25-04-16 04:00:22] Trials: [8/20] | Time: 0:03:36 | Noise type: noise | SNR: 5 dB | EER: 4.062 %
+[25-04-16 04:03:58] Trials: [8/20] | Time: 0:03:36 | Noise type: noise | SNR: 10 dB | EER: 3.065 %
+[25-04-16 04:07:37] Trials: [8/20] | Time: 0:03:38 | Noise type: noise | SNR: 15 dB | EER: 2.768 %
+[25-04-16 04:11:27] Trials: [8/20] | Time: 0:03:50 | Noise type: noise | SNR: 20 dB | EER: 2.476 %
+[25-04-16 04:11:27] Seed: 7216 | Average EER: 3.549 %
+[25-04-16 04:11:27] 
+
+[25-04-16 04:11:27] Random Seed Number: 3531
+[25-04-16 04:15:19] Trials: [9/20] | Time: 0:03:51 | Noise type: speech | SNR: 0 dB | EER: 6.888 %
+[25-04-16 04:19:30] Trials: [9/20] | Time: 0:04:10 | Noise type: speech | SNR: 5 dB | EER: 3.982 %
+[25-04-16 04:24:00] Trials: [9/20] | Time: 0:04:30 | Noise type: speech | SNR: 10 dB | EER: 3.112 %
+[25-04-16 04:28:28] Trials: [9/20] | Time: 0:04:28 | Noise type: speech | SNR: 15 dB | EER: 2.534 %
+[25-04-16 04:32:19] Trials: [9/20] | Time: 0:03:50 | Noise type: speech | SNR: 20 dB | EER: 2.365 %
+[25-04-16 04:35:56] Trials: [9/20] | Time: 0:03:37 | Noise type: music | SNR: 0 dB | EER: 5.589 %
+[25-04-16 04:39:32] Trials: [9/20] | Time: 0:03:35 | Noise type: music | SNR: 5 dB | EER: 3.839 %
+[25-04-16 04:43:09] Trials: [9/20] | Time: 0:03:37 | Noise type: music | SNR: 10 dB | EER: 2.874 %
+[25-04-16 04:46:49] Trials: [9/20] | Time: 0:03:39 | Noise type: music | SNR: 15 dB | EER: 2.545 %
+[25-04-16 04:50:36] Trials: [9/20] | Time: 0:03:46 | Noise type: music | SNR: 20 dB | EER: 2.285 %
+[25-04-16 04:54:36] Trials: [9/20] | Time: 0:04:00 | Noise type: noise | SNR: 0 dB | EER: 5.710 %
+[25-04-16 04:58:13] Trials: [9/20] | Time: 0:03:37 | Noise type: noise | SNR: 5 dB | EER: 4.120 %
+[25-04-16 05:01:55] Trials: [9/20] | Time: 0:03:42 | Noise type: noise | SNR: 10 dB | EER: 3.203 %
+[25-04-16 05:06:09] Trials: [9/20] | Time: 0:04:13 | Noise type: noise | SNR: 15 dB | EER: 2.789 %
+[25-04-16 05:09:46] Trials: [9/20] | Time: 0:03:37 | Noise type: noise | SNR: 20 dB | EER: 2.444 %
+[25-04-16 05:09:46] Seed: 3531 | Average EER: 3.530 %
+[25-04-16 05:09:46] 
+
+[25-04-16 05:09:46] Random Seed Number: 7254
+[25-04-16 05:13:38] Trials: [10/20] | Time: 0:03:51 | Noise type: speech | SNR: 0 dB | EER: 6.872 %
+[25-04-16 05:17:30] Trials: [10/20] | Time: 0:03:51 | Noise type: speech | SNR: 5 dB | EER: 4.024 %
+[25-04-16 05:21:20] Trials: [10/20] | Time: 0:03:50 | Noise type: speech | SNR: 10 dB | EER: 3.012 %
+[25-04-16 05:25:11] Trials: [10/20] | Time: 0:03:50 | Noise type: speech | SNR: 15 dB | EER: 2.572 %
+[25-04-16 05:29:25] Trials: [10/20] | Time: 0:04:14 | Noise type: speech | SNR: 20 dB | EER: 2.317 %
+[25-04-16 05:33:05] Trials: [10/20] | Time: 0:03:40 | Noise type: music | SNR: 0 dB | EER: 5.589 %
+[25-04-16 05:36:43] Trials: [10/20] | Time: 0:03:37 | Noise type: music | SNR: 5 dB | EER: 3.743 %
+[25-04-16 05:40:40] Trials: [10/20] | Time: 0:03:57 | Noise type: music | SNR: 10 dB | EER: 2.895 %
+[25-04-16 05:44:55] Trials: [10/20] | Time: 0:04:15 | Noise type: music | SNR: 15 dB | EER: 2.593 %
+[25-04-16 05:48:41] Trials: [10/20] | Time: 0:03:45 | Noise type: music | SNR: 20 dB | EER: 2.349 %
+[25-04-16 05:52:19] Trials: [10/20] | Time: 0:03:37 | Noise type: noise | SNR: 0 dB | EER: 5.806 %
+[25-04-16 05:55:57] Trials: [10/20] | Time: 0:03:37 | Noise type: noise | SNR: 5 dB | EER: 3.945 %
+[25-04-16 05:59:45] Trials: [10/20] | Time: 0:03:47 | Noise type: noise | SNR: 10 dB | EER: 3.155 %
+[25-04-16 06:03:21] Trials: [10/20] | Time: 0:03:36 | Noise type: noise | SNR: 15 dB | EER: 2.651 %
+[25-04-16 06:06:57] Trials: [10/20] | Time: 0:03:36 | Noise type: noise | SNR: 20 dB | EER: 2.444 %
+[25-04-16 06:06:57] Seed: 7254 | Average EER: 3.511 %
+[25-04-16 06:06:57] 
+
+[25-04-16 06:06:57] Random Seed Number: 3778
+[25-04-16 06:10:48] Trials: [11/20] | Time: 0:03:50 | Noise type: speech | SNR: 0 dB | EER: 6.813 %
+[25-04-16 06:14:40] Trials: [11/20] | Time: 0:03:52 | Noise type: speech | SNR: 5 dB | EER: 4.077 %
+[25-04-16 06:18:36] Trials: [11/20] | Time: 0:03:55 | Noise type: speech | SNR: 10 dB | EER: 3.038 %
+[25-04-16 06:23:04] Trials: [11/20] | Time: 0:04:28 | Noise type: speech | SNR: 15 dB | EER: 2.587 %
+[25-04-16 06:26:57] Trials: [11/20] | Time: 0:03:52 | Noise type: speech | SNR: 20 dB | EER: 2.259 %
+[25-04-16 06:30:41] Trials: [11/20] | Time: 0:03:43 | Noise type: music | SNR: 0 dB | EER: 5.451 %
+[25-04-16 06:34:40] Trials: [11/20] | Time: 0:03:59 | Noise type: music | SNR: 5 dB | EER: 3.786 %
+[25-04-16 06:38:17] Trials: [11/20] | Time: 0:03:37 | Noise type: music | SNR: 10 dB | EER: 2.916 %
+[25-04-16 06:42:22] Trials: [11/20] | Time: 0:04:04 | Noise type: music | SNR: 15 dB | EER: 2.572 %
+[25-04-16 06:46:16] Trials: [11/20] | Time: 0:03:53 | Noise type: music | SNR: 20 dB | EER: 2.301 %
+[25-04-16 06:49:53] Trials: [11/20] | Time: 0:03:37 | Noise type: noise | SNR: 0 dB | EER: 5.769 %
+[25-04-16 06:53:29] Trials: [11/20] | Time: 0:03:36 | Noise type: noise | SNR: 5 dB | EER: 4.067 %
+[25-04-16 06:57:06] Trials: [11/20] | Time: 0:03:37 | Noise type: noise | SNR: 10 dB | EER: 3.134 %
+[25-04-16 07:00:45] Trials: [11/20] | Time: 0:03:38 | Noise type: noise | SNR: 15 dB | EER: 2.752 %
+[25-04-16 07:04:21] Trials: [11/20] | Time: 0:03:35 | Noise type: noise | SNR: 20 dB | EER: 2.534 %
+[25-04-16 07:04:21] Seed: 3778 | Average EER: 3.516 %
+[25-04-16 07:04:21] 
+
+[25-04-16 07:04:21] Random Seed Number: 3789
+[25-04-16 07:08:13] Trials: [12/20] | Time: 0:03:51 | Noise type: speech | SNR: 0 dB | EER: 6.856 %
+[25-04-16 07:12:04] Trials: [12/20] | Time: 0:03:51 | Noise type: speech | SNR: 5 dB | EER: 3.971 % 
+[25-04-16 07:15:57] Trials: [12/20] | Time: 0:03:52 | Noise type: speech | SNR: 10 dB | EER: 3.134 % 
+[25-04-16 07:20:28] Trials: [12/20] | Time: 0:04:30 | Noise type: speech | SNR: 15 dB | EER: 2.625 % 
+[25-04-16 07:24:58] Trials: [12/20] | Time: 0:04:30 | Noise type: speech | SNR: 20 dB | EER: 2.370 %
+[25-04-16 07:29:14] Trials: [12/20] | Time: 0:04:15 | Noise type: music | SNR: 0 dB | EER: 5.530 %
+[25-04-16 07:33:29] Trials: [12/20] | Time: 0:04:14 | Noise type: music | SNR: 5 dB | EER: 3.780 %
+[25-04-16 07:37:45] Trials: [12/20] | Time: 0:04:15 | Noise type: music | SNR: 10 dB | EER: 2.985 %
+[25-04-16 07:42:01] Trials: [12/20] | Time: 0:04:15 | Noise type: music | SNR: 15 dB | EER: 2.577 %
+[25-04-16 07:46:17] Trials: [12/20] | Time: 0:04:15 | Noise type: music | SNR: 20 dB | EER: 2.354 %
+[25-04-16 07:50:32] Trials: [12/20] | Time: 0:04:15 | Noise type: noise | SNR: 0 dB | EER: 5.917 %
+[25-04-16 07:54:48] Trials: [12/20] | Time: 0:04:15 | Noise type: noise | SNR: 5 dB | EER: 4.030 %
+[25-04-16 07:59:03] Trials: [12/20] | Time: 0:04:15 | Noise type: noise | SNR: 10 dB | EER: 3.070 %
+[25-04-16 08:03:18] Trials: [12/20] | Time: 0:04:15 | Noise type: noise | SNR: 15 dB | EER: 2.694 %
+[25-04-16 08:07:04] Trials: [12/20] | Time: 0:03:45 | Noise type: noise | SNR: 20 dB | EER: 2.413 %
+[25-04-16 08:07:04] Seed: 3789 | Average EER: 3.532 %
+[25-04-16 08:07:04] 
+
+[25-04-16 08:07:04] Random Seed Number: 904
+[25-04-16 08:10:55] Trials: [13/20] | Time: 0:03:51 | Noise type: speech | SNR: 0 dB | EER: 6.935 %
+[25-04-16 08:14:47] Trials: [13/20] | Time: 0:03:51 | Noise type: speech | SNR: 5 dB | EER: 3.966 %
+[25-04-16 08:18:39] Trials: [13/20] | Time: 0:03:51 | Noise type: speech | SNR: 10 dB | EER: 3.070 %
+[25-04-16 08:22:30] Trials: [13/20] | Time: 0:03:51 | Noise type: speech | SNR: 15 dB | EER: 2.582 %
+[25-04-16 08:26:21] Trials: [13/20] | Time: 0:03:51 | Noise type: speech | SNR: 20 dB | EER: 2.365 %
+[25-04-16 08:29:58] Trials: [13/20] | Time: 0:03:36 | Noise type: music | SNR: 0 dB | EER: 5.567 %
+[25-04-16 08:33:34] Trials: [13/20] | Time: 0:03:36 | Noise type: music | SNR: 5 dB | EER: 3.743 %
+[25-04-16 08:37:11] Trials: [13/20] | Time: 0:03:36 | Noise type: music | SNR: 10 dB | EER: 2.975 %
+[25-04-16 08:40:48] Trials: [13/20] | Time: 0:03:36 | Noise type: music | SNR: 15 dB | EER: 2.540 %
+[25-04-16 08:44:25] Trials: [13/20] | Time: 0:03:37 | Noise type: music | SNR: 20 dB | EER: 2.317 %
+[25-04-16 08:48:01] Trials: [13/20] | Time: 0:03:36 | Noise type: noise | SNR: 0 dB | EER: 5.960 %
+[25-04-16 08:51:38] Trials: [13/20] | Time: 0:03:36 | Noise type: noise | SNR: 5 dB | EER: 4.014 %
+[25-04-16 08:55:14] Trials: [13/20] | Time: 0:03:36 | Noise type: noise | SNR: 10 dB | EER: 3.155 %
+[25-04-16 08:58:51] Trials: [13/20] | Time: 0:03:36 | Noise type: noise | SNR: 15 dB | EER: 2.741 %
+[25-04-16 09:02:27] Trials: [13/20] | Time: 0:03:36 | Noise type: noise | SNR: 20 dB | EER: 2.381 %
+[25-04-16 09:02:27] Seed: 904 | Average EER: 3.532 %
+[25-04-16 09:02:27] 
+
+[25-04-16 09:02:27] Random Seed Number: 1859
+[25-04-16 09:06:19] Trials: [14/20] | Time: 0:03:51 | Noise type: speech | SNR: 0 dB | EER: 6.978 %
+[25-04-16 09:10:10] Trials: [14/20] | Time: 0:03:51 | Noise type: speech | SNR: 5 dB | EER: 3.818 %
+[25-04-16 09:14:01] Trials: [14/20] | Time: 0:03:50 | Noise type: speech | SNR: 10 dB | EER: 3.171 %
+[25-04-16 09:17:52] Trials: [14/20] | Time: 0:03:50 | Noise type: speech | SNR: 15 dB | EER: 2.550 %
+[25-04-16 09:21:42] Trials: [14/20] | Time: 0:03:50 | Noise type: speech | SNR: 20 dB | EER: 2.344 %
+[25-04-16 09:25:19] Trials: [14/20] | Time: 0:03:36 | Noise type: music | SNR: 0 dB | EER: 5.737 %
+[25-04-16 09:28:56] Trials: [14/20] | Time: 0:03:36 | Noise type: music | SNR: 5 dB | EER: 3.680 %
+[25-04-16 09:32:32] Trials: [14/20] | Time: 0:03:36 | Noise type: music | SNR: 10 dB | EER: 2.863 %
+[25-04-16 09:36:09] Trials: [14/20] | Time: 0:03:36 | Noise type: music | SNR: 15 dB | EER: 2.481 %
+[25-04-16 09:39:46] Trials: [14/20] | Time: 0:03:36 | Noise type: music | SNR: 20 dB | EER: 2.349 %
+[25-04-16 09:43:22] Trials: [14/20] | Time: 0:03:36 | Noise type: noise | SNR: 0 dB | EER: 5.907 %
+[25-04-16 09:46:58] Trials: [14/20] | Time: 0:03:36 | Noise type: noise | SNR: 5 dB | EER: 3.977 %
+[25-04-16 09:50:35] Trials: [14/20] | Time: 0:03:36 | Noise type: noise | SNR: 10 dB | EER: 3.128 %
+[25-04-16 09:54:11] Trials: [14/20] | Time: 0:03:36 | Noise type: noise | SNR: 15 dB | EER: 2.704 %
+[25-04-16 09:57:48] Trials: [14/20] | Time: 0:03:36 | Noise type: noise | SNR: 20 dB | EER: 2.423 %
+[25-04-16 09:57:48] Seed: 1859 | Average EER: 3.520 %
+[25-04-16 09:57:48] 
+
+[25-04-16 09:57:48] Random Seed Number: 7081
+[25-04-16 10:01:40] Trials: [15/20] | Time: 0:03:51 | Noise type: speech | SNR: 0 dB | EER: 6.893 %
+[25-04-16 10:05:30] Trials: [15/20] | Time: 0:03:50 | Noise type: speech | SNR: 5 dB | EER: 4.093 %
+[25-04-16 10:09:21] Trials: [15/20] | Time: 0:03:50 | Noise type: speech | SNR: 10 dB | EER: 3.038 %
+[25-04-16 10:13:12] Trials: [15/20] | Time: 0:03:50 | Noise type: speech | SNR: 15 dB | EER: 2.550 %
+[25-04-16 10:17:03] Trials: [15/20] | Time: 0:03:50 | Noise type: speech | SNR: 20 dB | EER: 2.423 %
+[25-04-16 10:20:40] Trials: [15/20] | Time: 0:03:36 | Noise type: music | SNR: 0 dB | EER: 5.811 %
+[25-04-16 10:24:16] Trials: [15/20] | Time: 0:03:36 | Noise type: music | SNR: 5 dB | EER: 3.818 %
+[25-04-16 10:27:53] Trials: [15/20] | Time: 0:03:36 | Noise type: music | SNR: 10 dB | EER: 2.900 %
+[25-04-16 10:31:30] Trials: [15/20] | Time: 0:03:36 | Noise type: music | SNR: 15 dB | EER: 2.550 %
+[25-04-16 10:35:06] Trials: [15/20] | Time: 0:03:36 | Noise type: music | SNR: 20 dB | EER: 2.322 %
+[25-04-16 10:38:42] Trials: [15/20] | Time: 0:03:36 | Noise type: noise | SNR: 0 dB | EER: 5.764 %
+[25-04-16 10:42:19] Trials: [15/20] | Time: 0:03:36 | Noise type: noise | SNR: 5 dB | EER: 4.109 %
+[25-04-16 10:45:55] Trials: [15/20] | Time: 0:03:36 | Noise type: noise | SNR: 10 dB | EER: 3.271 %
+[25-04-16 10:49:32] Trials: [15/20] | Time: 0:03:36 | Noise type: noise | SNR: 15 dB | EER: 2.752 %
+[25-04-16 10:53:08] Trials: [15/20] | Time: 0:03:36 | Noise type: noise | SNR: 20 dB | EER: 2.487 %
+[25-04-16 10:53:08] Seed: 7081 | Average EER: 3.562 %
+[25-04-16 10:53:08] 
+
+[25-04-16 10:53:08] Random Seed Number: 6040
+[25-04-16 10:57:00] Trials: [16/20] | Time: 0:03:51 | Noise type: speech | SNR: 0 dB | EER: 7.004 %
+[25-04-16 11:00:50] Trials: [16/20] | Time: 0:03:50 | Noise type: speech | SNR: 5 dB | EER: 4.120 %
+[25-04-16 11:04:41] Trials: [16/20] | Time: 0:03:50 | Noise type: speech | SNR: 10 dB | EER: 3.070 %
+[25-04-16 11:08:32] Trials: [16/20] | Time: 0:03:51 | Noise type: speech | SNR: 15 dB | EER: 2.593 %
+[25-04-16 11:12:24] Trials: [16/20] | Time: 0:03:51 | Noise type: speech | SNR: 20 dB | EER: 2.359 %
+[25-04-16 11:16:10] Trials: [16/20] | Time: 0:03:46 | Noise type: music | SNR: 0 dB | EER: 5.636 %
+[25-04-16 11:20:03] Trials: [16/20] | Time: 0:03:53 | Noise type: music | SNR: 5 dB | EER: 3.659 %
+[25-04-16 11:23:43] Trials: [16/20] | Time: 0:03:39 | Noise type: music | SNR: 10 dB | EER: 2.927 %
+[25-04-16 11:27:21] Trials: [16/20] | Time: 0:03:38 | Noise type: music | SNR: 15 dB | EER: 2.497 %
+[25-04-16 11:30:57] Trials: [16/20] | Time: 0:03:35 | Noise type: music | SNR: 20 dB | EER: 2.296 %
+[25-04-16 11:34:35] Trials: [16/20] | Time: 0:03:37 | Noise type: noise | SNR: 0 dB | EER: 5.726 %
+[25-04-16 11:38:13] Trials: [16/20] | Time: 0:03:38 | Noise type: noise | SNR: 5 dB | EER: 4.088 %
+[25-04-16 11:41:52] Trials: [16/20] | Time: 0:03:38 | Noise type: noise | SNR: 10 dB | EER: 3.160 %
+[25-04-16 11:45:30] Trials: [16/20] | Time: 0:03:38 | Noise type: noise | SNR: 15 dB | EER: 2.598 %
+[25-04-16 11:49:07] Trials: [16/20] | Time: 0:03:37 | Noise type: noise | SNR: 20 dB | EER: 2.466 %
+[25-04-16 11:49:07] Seed: 6040 | Average EER: 3.525 %
+[25-04-16 11:49:07] 
+
+[25-04-16 11:49:07] Random Seed Number: 9728
+[25-04-16 11:52:58] Trials: [17/20] | Time: 0:03:50 | Noise type: speech | SNR: 0 dB | EER: 6.882 %
+[25-04-16 11:56:49] Trials: [17/20] | Time: 0:03:50 | Noise type: speech | SNR: 5 dB | EER: 3.977 %
+[25-04-16 12:00:42] Trials: [17/20] | Time: 0:03:53 | Noise type: speech | SNR: 10 dB | EER: 2.985 %
+[25-04-16 12:04:35] Trials: [17/20] | Time: 0:03:52 | Noise type: speech | SNR: 15 dB | EER: 2.556 %
+[25-04-16 12:08:26] Trials: [17/20] | Time: 0:03:51 | Noise type: speech | SNR: 20 dB | EER: 2.375 %
+[25-04-16 12:12:03] Trials: [17/20] | Time: 0:03:36 | Noise type: music | SNR: 0 dB | EER: 5.334 %
+[25-04-16 12:15:39] Trials: [17/20] | Time: 0:03:36 | Noise type: music | SNR: 5 dB | EER: 3.717 %
+[25-04-16 12:19:16] Trials: [17/20] | Time: 0:03:36 | Noise type: music | SNR: 10 dB | EER: 2.879 %
+[25-04-16 12:22:52] Trials: [17/20] | Time: 0:03:36 | Noise type: music | SNR: 15 dB | EER: 2.513 %
+[25-04-16 12:26:29] Trials: [17/20] | Time: 0:03:36 | Noise type: music | SNR: 20 dB | EER: 2.333 %
+[25-04-16 12:30:05] Trials: [17/20] | Time: 0:03:36 | Noise type: noise | SNR: 0 dB | EER: 5.965 %
+[25-04-16 12:33:41] Trials: [17/20] | Time: 0:03:36 | Noise type: noise | SNR: 5 dB | EER: 4.258 %
+[25-04-16 12:37:18] Trials: [17/20] | Time: 0:03:36 | Noise type: noise | SNR: 10 dB | EER: 3.097 %
+[25-04-16 12:40:54] Trials: [17/20] | Time: 0:03:36 | Noise type: noise | SNR: 15 dB | EER: 2.752 %
+[25-04-16 12:44:30] Trials: [17/20] | Time: 0:03:36 | Noise type: noise | SNR: 20 dB | EER: 2.444 %
+[25-04-16 12:44:30] Seed: 9728 | Average EER: 3.517 %
+[25-04-16 12:44:30] 
+
+[25-04-16 12:44:30] Random Seed Number: 5933
+[25-04-16 12:48:20] Trials: [18/20] | Time: 0:03:50 | Noise type: speech | SNR: 0 dB | EER: 6.792 %
+[25-04-16 12:52:12] Trials: [18/20] | Time: 0:03:51 | Noise type: speech | SNR: 5 dB | EER: 4.072 %
+[25-04-16 12:56:03] Trials: [18/20] | Time: 0:03:51 | Noise type: speech | SNR: 10 dB | EER: 3.028 %
+[25-04-16 12:59:54] Trials: [18/20] | Time: 0:03:51 | Noise type: speech | SNR: 15 dB | EER: 2.572 %
+[25-04-16 13:03:45] Trials: [18/20] | Time: 0:03:51 | Noise type: speech | SNR: 20 dB | EER: 2.328 %
+[25-04-16 13:07:21] Trials: [18/20] | Time: 0:03:36 | Noise type: music | SNR: 0 dB | EER: 5.610 %
+[25-04-16 13:10:57] Trials: [18/20] | Time: 0:03:36 | Noise type: music | SNR: 5 dB | EER: 3.807 %
+[25-04-16 13:14:34] Trials: [18/20] | Time: 0:03:36 | Noise type: music | SNR: 10 dB | EER: 3.049 %
+[25-04-16 13:18:29] Trials: [18/20] | Time: 0:03:55 | Noise type: music | SNR: 15 dB | EER: 2.614 %
+[25-04-16 13:22:06] Trials: [18/20] | Time: 0:03:36 | Noise type: music | SNR: 20 dB | EER: 2.391 %
+[25-04-16 13:26:02] Trials: [18/20] | Time: 0:03:56 | Noise type: noise | SNR: 0 dB | EER: 5.838 %
+[25-04-16 13:30:19] Trials: [18/20] | Time: 0:04:16 | Noise type: noise | SNR: 5 dB | EER: 4.083 %
+[25-04-16 13:34:35] Trials: [18/20] | Time: 0:04:16 | Noise type: noise | SNR: 10 dB | EER: 3.234 %
+[25-04-16 13:38:31] Trials: [18/20] | Time: 0:03:56 | Noise type: noise | SNR: 15 dB | EER: 2.794 %
+[25-04-16 13:42:31] Trials: [18/20] | Time: 0:03:59 | Noise type: noise | SNR: 20 dB | EER: 2.471 %
+[25-04-16 13:42:31] Seed: 5933 | Average EER: 3.555 %
+[25-04-16 13:42:31] 
+
+[25-04-16 13:42:31] Random Seed Number: 644
+[25-04-16 13:46:44] Trials: [19/20] | Time: 0:04:12 | Noise type: speech | SNR: 0 dB | EER: 6.819 %
+[25-04-16 13:50:38] Trials: [19/20] | Time: 0:03:54 | Noise type: speech | SNR: 5 dB | EER: 3.993 %
+[25-04-16 13:54:35] Trials: [19/20] | Time: 0:03:56 | Noise type: speech | SNR: 10 dB | EER: 3.001 %
+[25-04-16 13:58:27] Trials: [19/20] | Time: 0:03:51 | Noise type: speech | SNR: 15 dB | EER: 2.550 %
+[25-04-16 14:02:18] Trials: [19/20] | Time: 0:03:51 | Noise type: speech | SNR: 20 dB | EER: 2.264 %
+[25-04-16 14:05:55] Trials: [19/20] | Time: 0:03:37 | Noise type: music | SNR: 0 dB | EER: 5.657 %
+[25-04-16 14:09:32] Trials: [19/20] | Time: 0:03:36 | Noise type: music | SNR: 5 dB | EER: 3.865 %
+[25-04-16 14:13:09] Trials: [19/20] | Time: 0:03:37 | Noise type: music | SNR: 10 dB | EER: 2.911 %
+[25-04-16 14:17:05] Trials: [19/20] | Time: 0:03:55 | Noise type: music | SNR: 15 dB | EER: 2.534 %
+[25-04-16 14:21:21] Trials: [19/20] | Time: 0:04:16 | Noise type: music | SNR: 20 dB | EER: 2.306 %
+[25-04-16 14:25:03] Trials: [19/20] | Time: 0:03:42 | Noise type: noise | SNR: 0 dB | EER: 5.880 %
+[25-04-16 14:28:41] Trials: [19/20] | Time: 0:03:37 | Noise type: noise | SNR: 5 dB | EER: 4.215 %
+[25-04-16 14:32:17] Trials: [19/20] | Time: 0:03:36 | Noise type: noise | SNR: 10 dB | EER: 3.070 %
+[25-04-16 14:35:53] Trials: [19/20] | Time: 0:03:36 | Noise type: noise | SNR: 15 dB | EER: 2.646 %
+[25-04-16 14:39:30] Trials: [19/20] | Time: 0:03:37 | Noise type: noise | SNR: 20 dB | EER: 2.487 %
+[25-04-16 14:39:30] Seed: 644 | Average EER: 3.525 %
+[25-04-16 14:39:30] 
+
+[25-04-16 14:39:30] Random Seed Number: 7991
+[25-04-16 14:43:22] Trials: [20/20] | Time: 0:03:51 | Noise type: speech | SNR: 0 dB | EER: 6.877 %
+[25-04-16 14:47:14] Trials: [20/20] | Time: 0:03:51 | Noise type: speech | SNR: 5 dB | EER: 3.945 %
+[25-04-16 14:51:05] Trials: [20/20] | Time: 0:03:51 | Noise type: speech | SNR: 10 dB | EER: 3.054 %
+[25-04-16 14:54:56] Trials: [20/20] | Time: 0:03:51 | Noise type: speech | SNR: 15 dB | EER: 2.619 %
+[25-04-16 14:58:48] Trials: [20/20] | Time: 0:03:51 | Noise type: speech | SNR: 20 dB | EER: 2.381 %
+[25-04-16 15:02:25] Trials: [20/20] | Time: 0:03:36 | Noise type: music | SNR: 0 dB | EER: 5.589 %
+[25-04-16 15:06:02] Trials: [20/20] | Time: 0:03:36 | Noise type: music | SNR: 5 dB | EER: 3.659 %
+[25-04-16 15:09:39] Trials: [20/20] | Time: 0:03:37 | Noise type: music | SNR: 10 dB | EER: 2.943 %
+[25-04-16 15:13:17] Trials: [20/20] | Time: 0:03:37 | Noise type: music | SNR: 15 dB | EER: 2.550 %
+[25-04-16 15:16:54] Trials: [20/20] | Time: 0:03:37 | Noise type: music | SNR: 20 dB | EER: 2.349 %
+[25-04-16 15:20:45] Trials: [20/20] | Time: 0:03:50 | Noise type: noise | SNR: 0 dB | EER: 5.679 %
+[25-04-16 15:24:21] Trials: [20/20] | Time: 0:03:35 | Noise type: noise | SNR: 5 dB | EER: 4.035 %
+[25-04-16 15:28:27] Trials: [20/20] | Time: 0:04:05 | Noise type: noise | SNR: 10 dB | EER: 3.165 %
+[25-04-16 15:32:37] Trials: [20/20] | Time: 0:04:10 | Noise type: noise | SNR: 15 dB | EER: 2.831 %
+[25-04-16 15:36:53] Trials: [20/20] | Time: 0:04:15 | Noise type: noise | SNR: 20 dB | EER: 2.481 %
+[25-04-16 15:36:53] Seed: 7991 | Average EER: 3.523 % 
+[25-04-16 15:36:53] 
+
+[25-04-16 15:36:53] Noise type: speech | SNR: 0 dB | mean_EER: 6.89±0.09 %
+[25-04-16 15:36:53] Noise type: speech | SNR: 5 dB | mean_EER: 4.01±0.08 %
+[25-04-16 15:36:53] Noise type: speech | SNR: 10 dB | mean_EER: 3.06±0.05 %
+[25-04-16 15:36:53] Noise type: speech | SNR: 15 dB | mean_EER: 2.57±0.03 %
+[25-04-16 15:36:53] Noise type: speech | SNR: 20 dB | mean_EER: 2.34±0.04 %
+[25-04-16 15:36:53] Noise type: music | SNR: 0 dB | mean_EER: 5.61±0.11 %
+[25-04-16 15:36:53] Noise type: music | SNR: 5 dB | mean_EER: 3.76±0.07 %
+[25-04-16 15:36:53] Noise type: music | SNR: 10 dB | mean_EER: 2.93±0.05 %
+[25-04-16 15:36:53] Noise type: music | SNR: 15 dB | mean_EER: 2.55±0.03 %
+[25-04-16 15:36:53] Noise type: music | SNR: 20 dB | mean_EER: 2.34±0.04 %
+[25-04-16 15:36:53] Noise type: noise | SNR: 0 dB | mean_EER: 5.82±0.12 %
+[25-04-16 15:36:53] Noise type: noise | SNR: 5 dB | mean_EER: 4.05±0.09 %
+[25-04-16 15:36:53] Noise type: noise | SNR: 10 dB | mean_EER: 3.15±0.07 %
+[25-04-16 15:36:53] Noise type: noise | SNR: 15 dB | mean_EER: 2.73±0.05 %
+[25-04-16 15:36:53] Noise type: noise | SNR: 20 dB | mean_EER: 2.46±0.04 %
+[25-04-16 15:36:53] Result of total average |  EER: 3.53 ± 0.01 %
