@@ -7,7 +7,7 @@ Currently under revision process for IEEE Transactions on Audio, Speech, and Lan
 We provide our implementation as open source in this repository.<br>
 
 
-## Pre-requisites & Environment Setting
+## Environment Setting
 Please refer [requirements.txt](https://github.com/aryanorb/NRSV-RC/blob/main/requirements.txt).
 
 ## 📁 Data Preparation
