@@ -16,3 +16,6 @@ For the dataloader and MUSAN noise split, we referred to the implementations fro
 
 ## 📝 Note
 DDP (Distributed Data Parallel) implementation will be released soon.
+
+## License
+© 2025 Sangwook Han. All rights reserved.
